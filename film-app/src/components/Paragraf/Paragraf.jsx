@@ -2,7 +2,7 @@ import './Paragraf.css';
 
 function Paragraf() {
 	return (		
-		<p className='paragraf'>Введите название фильма, сериала или мультфильма для поиска и добавления в избранное.</p>
+		<p className='paragraf paragraf-16'>Введите название фильма, сериала или мультфильма для поиска и добавления в избранное.</p>
 	);
 }
 

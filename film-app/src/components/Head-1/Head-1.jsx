@@ -2,7 +2,7 @@ import './Head-1.css';
 
 function Head_1() {
 	return (		
-		<h1>Поиск</h1>
+		<h1 className='head-text'>Поиск</h1>
 	);
 }
 

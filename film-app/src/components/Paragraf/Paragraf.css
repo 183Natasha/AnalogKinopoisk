@@ -1,8 +1,15 @@
 .paragraf {
     color: rgb(142, 149, 169);
     font-family: Poppins;
-    font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
+}
+
+.paragraf-16 {
+    font-size: 16px;
+}
+
+.paragraf-20 {
+    font-size: 20px;
 }
