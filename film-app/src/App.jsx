@@ -1,15 +1,19 @@
 import './App.css';
 import Button from './components/Button/Button';
 import Paragraf from './components/Paragraf/Paragraf';
-import Head_1 from './components/head-1/head-1';
+import Search_text from './components/Search-text/Search-text';
+import Header from './components/Header/Header';
+
 
 function App() {
 	return (
-		<>
-			<Head_1/>
+		<div className='app'>
+			<Header> </Header>
+			
+			<Search_text/>
 			<Paragraf/>
 			<Button/>
-		</>
+		</div>
 	);
 }
 
