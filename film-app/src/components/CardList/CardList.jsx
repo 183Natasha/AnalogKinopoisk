@@ -3,7 +3,19 @@ import Card from '../Card/Card';
 
 function CardList() {
 	return (
-		<Card></Card>
+		<div className='card-list'>
+			<Card></Card>
+			<Card></Card>
+			<Card></Card>
+			<Card></Card>
+			<Card></Card>
+			<Card></Card>
+			<Card></Card>
+			<Card></Card>
+		</div>
+
+		
+
 	);
 }
 
