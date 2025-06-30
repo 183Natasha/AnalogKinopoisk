@@ -3,6 +3,8 @@ import './App.css';
 // import Paragraf from './components/Paragraf/Paragraf';
 import Search_text from './components/Search-part/Search-part';
 import Header from './components/Header/Header';
+import Card from './components/Card/Card';
+import CardList from './components/CardList/CardList';
 
 
 function App() {
@@ -11,6 +13,7 @@ function App() {
 			<Header/>
 			
 			<Search_text></Search_text>
+			<CardList></CardList>
 		</div>
 	);
 }
