@@ -61,3 +61,31 @@
     width: 24px;
     height: 24px;
 }
+
+
+.rating-button{
+    display: flex;
+    position: absolute;
+    left: 16px;
+    top: 28px;
+    background: #000000A6;
+    width: 65px;
+    height: 32px;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.rating-button__star{
+    color: #FFAD49;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    font-size: 16px;
+}
+.star{
+    width: 16px;
+    height: 16px;
+}
