@@ -1,4 +1,4 @@
-import './Input.css';
+import styles from './Input.module.css';
 
 function Input({
 	placeholder = 'Введите название...', // Дефолтный плейсхолдер

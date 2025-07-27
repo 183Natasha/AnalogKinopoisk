@@ -1,4 +1,4 @@
-import './CardList.css';
+import styles from './CardList.module.css';
 import Card from '../Card/Card';
 
 function CardList() {

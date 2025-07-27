@@ -1,4 +1,4 @@
-import './HeaderRight.css';
+import styles from './HeaderRight.module.css';
 
 function HeaderRight() {
 	return (	

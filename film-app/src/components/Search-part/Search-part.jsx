@@ -1,4 +1,4 @@
-import './Search-part.css';
+import dtyles from './Search-part.module.css';
 import Paragraf from '../Paragraf/Paragraf';
 import Button from '../Button/Button';
 import Input from '../Input/Input';

@@ -1,4 +1,4 @@
-import './HeaderLeft.css';
+import from './HeaderLeft.module.css';
 
 function HeaderLeft() {
 	return (	
