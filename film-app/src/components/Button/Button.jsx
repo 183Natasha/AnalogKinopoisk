@@ -1,11 +1,12 @@
-import './Button.css';
+import styles from'./Button.module.css';
+import cn from 'classnames';
 
 function Button() {
 	const handleClick = () => {
 		console.log('Кнопка нажата!');
 	};
 	return (		
-		<button className='button accent' onClick={handleClick}>Искать</button>
+		<button className={cn(styles['button'], styles['accent'])} onClick={handleClick}>Искать</button>
 	);
 }
 

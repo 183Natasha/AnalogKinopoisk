@@ -1,4 +1,5 @@
-import './Input.css';
+import styles from './Input.module.css';
+import cn from 'classnames';
 
 function Input({
 	placeholder = 'Введите название...', // Дефолтный плейсхолдер
@@ -7,14 +8,14 @@ function Input({
 }) {
     
 	return (
-		<div className={`search-container ${className}`}>
-			{showIcon && <img src="left-icon.svg" alt="Поиск" className="search-icon" />}
+		<div className={cn(styles['search-container'], className)}>
+			{showIcon && <img src="left-icon.svg" alt="Поиск" className= {styles['search-icon']}  />}
 			<input
 				type="text"
 				placeholder={placeholder}
-				className="search-input"
+				className= {styles['search-input']} 
 			/>
-  
+
 		</div>
 	);
 
