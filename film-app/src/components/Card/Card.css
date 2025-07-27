@@ -1,0 +1,91 @@
+.card-item {
+    display: flex;
+    flex-direction: column;
+    width: 282px;
+    height: 520px;
+    justify-content: center;
+    align-items: center;
+    /* Центрирует дочерние элементы по умолчанию */
+    position: relative;
+    /* Добавляем для позиционирования внутреннего блока */
+    border-radius: 12px;
+    backdrop-filter: blur(80px);
+    background: rgba(32, 40, 62, 0.8);
+}
+
+.card-item__block {
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+    gap: 16px;
+    align-self: flex-start;
+    /* Прижимаем блок к левому краю */
+    width: calc(100% - 16px);
+}
+
+.card-item__favorite {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.card-item__favorite_text {
+    text-align: left;
+
+    color: rgb(123, 110, 246);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    width: 107px;
+    margin: 0;
+}
+
+.card-item__header {
+    color: rgb(235, 238, 245);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    /* margin: 24px 159px 16px 8px; */
+    margin: 0;
+}
+
+.poster {
+    width: 266px;
+    height: 400px;
+}
+
+.like {
+    width: 24px;
+    height: 24px;
+}
+
+
+.rating-button{
+    display: flex;
+    position: absolute;
+    left: 16px;
+    top: 28px;
+    background: #000000A6;
+    width: 65px;
+    height: 32px;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.rating-button__star{
+    color: #FFAD49;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    font-size: 16px;
+}
+.star{
+    width: 16px;
+    height: 16px;
+}
