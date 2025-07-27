@@ -1,4 +1,4 @@
-import './App.css';
+import styles from './App.module.css';
 // import Button from './components/Button/Button';
 // import Paragraf from './components/Paragraf/Paragraf';
 import Search_text from './components/Search-part/Search-part';
@@ -9,7 +9,7 @@ import CardList from './components/CardList/CardList';
 
 function App() {
 	return (
-		<div className='app'>
+		<div className={styles['app']} >
 			<Header/>
 			
 			<Search_text></Search_text>
