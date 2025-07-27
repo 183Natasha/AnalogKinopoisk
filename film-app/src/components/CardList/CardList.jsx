@@ -3,7 +3,7 @@ import Card from '../Card/Card';
 
 function CardList() {
 	return (
-		<div className='card-list'>
+		<div className={styles['card-list']}>
 			<Card></Card>
 			<Card></Card>
 			<Card></Card>

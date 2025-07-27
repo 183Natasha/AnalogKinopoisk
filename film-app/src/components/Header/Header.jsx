@@ -4,7 +4,7 @@ import HeaderRight from '../HeaderRight/HeaderRight';
 
 function Header() {
 	return (	
-		<div className='header'>
+		<div className={styles['header']}>
 			<HeaderLeft></HeaderLeft>
 			<HeaderRight></HeaderRight>
 		</div>	
